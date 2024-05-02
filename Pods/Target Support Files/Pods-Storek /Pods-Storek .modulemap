@@ -1,0 +1,6 @@
+framework module Pods_Storek_ {
+  umbrella header "Pods-Storek -umbrella.h"
+
+  export *
+  module * { export * }
+}

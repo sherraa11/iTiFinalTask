@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Storek /Pods-Storek -frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
+${BUILT_PRODUCTS_DIR}/Dodo/Dodo.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework

@@ -1,0 +1,1176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006C7650BA8A7792A469296D25C34FEA /* Pods-Storek -umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75437AD219E8C1CA129AFD0C5F226E60 /* Pods-Storek -umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043FB398B2F1B3C33CFC74E45869A267 /* DodoAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3F2070BE07BB7FCB71D284DDF94AD /* DodoAnimations.swift */; };
+		0B8A8B8DDAD2E3BE1F4E96079D9C46D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		11E5650E7F5AC2A7167A44D68FC37E86 /* DodoMockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E0A5E7B01305281F520D0BF41B666A /* DodoMockMessage.swift */; };
+		120C1B1A56ABA6C9882E49D354E13B9E /* DodoButtonViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AFD34524CF0D7A31417CA7F9C4C6EB /* DodoButtonViewDelegate.swift */; };
+		161CE4CB7E8DF74E79413F9E49EC0A33 /* DodoBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C036F97E452B14B59CA3C16D0C7E6 /* DodoBarStyle.swift */; };
+		17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B995C12DE61E49A19990C2BEE019FE4D /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806EFABEFE785C1A370EF81940448DB3 /* CosmosText.swift */; };
+		1EEA1978C2A4664F7A309E54F988AD93 /* DodoToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00760C8AE9C841482EA704D73F09D790 /* DodoToolbar.swift */; };
+		1FDAFBD8CC13389CC2300D4905903DC4 /* DodoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158F48EE5EA730A80950DB68E29073FE /* DodoColor.swift */; };
+		209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		250C29CBC494F5E897C14712A798D296 /* Dodo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C3F828C6A6574DDAD855CEB76ED3D3 /* Dodo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D62325D951CC3A00335C8BE996D3A71E /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F789B81D3D8D3A7A28068EFE2A5EBA /* CosmosRating.swift */; };
+		43131319507ECB00826294018D4E0409 /* DodoTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0136912B89FA1CF0E96BC78FBC749C /* DodoTouchTarget.swift */; };
+		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A41E3230D94BC566565BD11EF31803 /* CosmosTouchTarget.swift */; };
+		49CC87950DF0766DBB0B064AF22BB146 /* DodoButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD11F4D86E30D8E5D0896B8A138DCB /* DodoButtonStyle.swift */; };
+		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E8FF62A750534E7C2524DF19B99051 /* CosmosSettings.swift */; };
+		5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */; };
+		59689D49E037C498592F3D5B2F21EA93 /* DodoKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB7A4F5D112019A13426A4B540E2F6 /* DodoKeyboardListener.swift */; };
+		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1670819AC7CBA7B103A46624FBAC7B6 /* StarFillMode.swift */; };
+		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4355461DF8206EF3A28C626C32C5805D /* CosmosDefaultSettings.swift */; };
+		628F1C0ACDE93255807E786C2619290F /* DodoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0855FCEE5ED5CB2CE3D997F78C82AD1 /* DodoMock.swift */; };
+		62B5E240A4DCD126F7D36E87715EE948 /* Dodo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B5145C94B5DD9E022213EE2636B48B /* Dodo-dummy.m */; };
+		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11695E2915D153E70EDC1342E46B8973 /* Cosmos-dummy.m */; };
+		686856F88D8AA13189A727474B0D731F /* DodoIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DBB509917DBFE04B55BD62E437C7D9 /* DodoIcons.swift */; };
+		6CC048B5E9BD9FF24136D66774DEF087 /* DodoLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA04865C5A384DFBE88DCD3936A690F /* DodoLabelStyle.swift */; };
+		715229923AE7F21D2AC0B9D5CE28AA4B /* SpringAnimationCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E0ABC5DBF66993425E1E452337BC9 /* SpringAnimationCALayer.swift */; };
+		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBFFFFEB3863B10053B8A76E72ECA8 /* CosmosAccessibility.swift */; };
+		78F45F63B17B07C04BD516A40D1D135D /* DodoStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761B861546776912D92C03A0B9DDF7E3 /* DodoStyle.swift */; };
+		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF96F1D47C374CA889643F39E2BA56A /* CosmosTouch.swift */; };
+		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451072FFA04458348718F64083EA5DA3 /* StarLayer.swift */; };
+		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B570AABD1DABEA7DD3906DB8CE2DF /* CosmosSize.swift */; };
+		8518DA7C37C47CCE4F55047F7FD1DF7E /* DodoMockResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A1CF6A9BC395F83BFC8A507BAEA04 /* DodoMockResults.swift */; };
+		8A7BEC80C83D5F9E3906EA6BFFD468F5 /* MoaTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617D8CB01D64D38723E52354EAFE42F /* MoaTimer.swift */; };
+		8A9766B5F31C4971BB9269C874B4752D /* DodoButtonDefaultStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61EC45F88046A896FB0A2DF9B447531 /* DodoButtonDefaultStyles.swift */; };
+		8AA9F78BDD8D5F7240C94A04056E8C9D /* Dodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0426395F56AF7DD68F43DF5AE689D /* Dodo.swift */; };
+		8DB63B791C2D03F84269CF42837EABC0 /* TegAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B093C3B21B73F1066DC73E8B5B696C /* TegAutolayoutConstraints.swift */; };
+		93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */; };
+		95879E6ADD217CCD6D2F9BC6C813E72D /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F078E74440A3B0ACDE4B73865E103FF /* Icons.xcassets */; };
+		960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC7D979772EF6C237858C4D3D19B5D9 /* ReachabilitySwift-dummy.m */; };
+		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6862D2D2AFB4D6E798C8BBC44BD32461 /* RightToLeft.swift */; };
+		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF67D6D3E74CEF7A8C5DDDBA917E45 /* CosmosLayerHelper.swift */; };
+		9B45F19C084FE1C98EACA45DDE83E2A2 /* DodoInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BFD813CA1D498DCD5A158B2C2B985 /* DodoInterface.swift */; };
+		A0AB59301029BF12BF903DA4E399272F /* Pods-Storek -dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A8FC903F10FBE227D930F427922F5 /* Pods-Storek -dummy.m */; };
+		A6F584D63C437820BF240280E9E7864C /* UIView+SwiftAlertBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88E052FEA8567D39D77AF479CC3C68 /* UIView+SwiftAlertBar.swift */; };
+		AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3DD5568B504C2EA8B8ABEE9E1DDCA /* Reachability.swift */; };
+		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98056BCA94565565044F0E06AF754038 /* CosmosLayers.swift */; };
+		BCDCA254978B9031179DEAFE961BC329 /* DodoAnimationsShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9023040FDA1FD0A1D69146EE428AD /* DodoAnimationsShow.swift */; };
+		C4201EEBBE6B79244B5D87506A59225B /* OnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9655A4FEAE8E08236EEA4326F94A359 /* OnTap.swift */; };
+		C71430E3DD5225229CB2E0D208412D0F /* DodoAnimationsHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61A4192282F25C2166EF80C11915802 /* DodoAnimationsHide.swift */; };
+		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AB11C23854B57DDE6B2B237B9D9B7 /* CosmosLocalizedRating.swift */; };
+		CBBF964941535265CA38D9897C705D38 /* DodoPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155BA4AAF5CE87D8E201E73DAA2F6ABD /* DodoPresets.swift */; };
+		D9B99F592F5A734B5EDFE7698F50B008 /* DodoBarOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968CBA31D4A6F355BCC1A87418E88EF /* DodoBarOnTap.swift */; };
+		DE124A4B23E3BBA3A477C84749539617 /* UnderKeyboardDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148FAFC4C2B996A75AE97265FCCFBE4B /* UnderKeyboardDistrib.swift */; };
+		E28055B3F953C19CCF4606159429A129 /* DodoButtonOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3231C733A5662FDB14610FE6DB62185C /* DodoButtonOnTap.swift */; };
+		E2D6EEAF199298D0E2EADC01FA5A6DE1 /* DodoLabelDefaultStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707C42CFF363C6605DEA0510D45D33C /* DodoLabelDefaultStyles.swift */; };
+		E6BE530311D7C0E8DB0CFE3F6B4A0D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD363148F7631B108E7FA061745B8D8 /* CosmosView.swift */; };
+		ECA18A0B2E764E10AA23A5B31ED499BF /* DodoBarDefaultStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B48052A67505C5C3D5351B71FF6F5 /* DodoBarDefaultStyles.swift */; };
+		F61117ECDA63FA0265ED3BA3F67592A4 /* DodoButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586EBB80DA08942AAACB3D6049F45496 /* DodoButtonView.swift */; };
+		F6A2888F195755F83F38865BBDAF3A8E /* DodoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6300C5C1AFAD64D3613076447F863A /* DodoAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19AC467D29F5F47E1DCCC889DE25202A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE687E1509186749C85E1808D527FDE;
+			remoteInfo = Dodo;
+		};
+		7088A4AE62794E4E84F22E7A7C0696F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
+			remoteInfo = Cosmos;
+		};
+		9C077274DE72DE7E1D70623DE9D9E96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00760C8AE9C841482EA704D73F09D790 /* DodoToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoToolbar.swift; path = Dodo/DodoToolbar.swift; sourceTree = "<group>"; };
+		01A41E3230D94BC566565BD11EF31803 /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		03837EDC3C7C448D4965706CC226F4B7 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		040BFD813CA1D498DCD5A158B2C2B985 /* DodoInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoInterface.swift; path = Dodo/DodoInterface.swift; sourceTree = "<group>"; };
+		05392CAE12CEF92DA2AD2D909891C575 /* Pods_Storek_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Storek_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0707C42CFF363C6605DEA0510D45D33C /* DodoLabelDefaultStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoLabelDefaultStyles.swift; path = Dodo/Style/DodoLabelDefaultStyles.swift; sourceTree = "<group>"; };
+		071B48052A67505C5C3D5351B71FF6F5 /* DodoBarDefaultStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoBarDefaultStyles.swift; path = Dodo/Style/DodoBarDefaultStyles.swift; sourceTree = "<group>"; };
+		09038EC544AD7E4E427DB416A8A9D282 /* Pods-Storek .debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Storek .debug.xcconfig"; sourceTree = "<group>"; };
+		0A6300C5C1AFAD64D3613076447F863A /* DodoAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoAnimation.swift; path = Dodo/Animators/DodoAnimation.swift; sourceTree = "<group>"; };
+		11695E2915D153E70EDC1342E46B8973 /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		148FAFC4C2B996A75AE97265FCCFBE4B /* UnderKeyboardDistrib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderKeyboardDistrib.swift; path = Dodo/Utils/UnderKeyboardDistrib.swift; sourceTree = "<group>"; };
+		155BA4AAF5CE87D8E201E73DAA2F6ABD /* DodoPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoPresets.swift; path = Dodo/Style/DodoPresets.swift; sourceTree = "<group>"; };
+		158F48EE5EA730A80950DB68E29073FE /* DodoColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoColor.swift; path = Dodo/Utils/DodoColor.swift; sourceTree = "<group>"; };
+		162F741B9156AC97E6C29E82CE81B14E /* Pods-Storek .release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Storek .release.xcconfig"; sourceTree = "<group>"; };
+		1CEBFFFFEB3863B10053B8A76E72ECA8 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		28F3DD5568B504C2EA8B8ABEE9E1DDCA /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		2EF96F1D47C374CA889643F39E2BA56A /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		31AD11F4D86E30D8E5D0896B8A138DCB /* DodoButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoButtonStyle.swift; path = Dodo/Style/DodoButtonStyle.swift; sourceTree = "<group>"; };
+		3231C733A5662FDB14610FE6DB62185C /* DodoButtonOnTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoButtonOnTap.swift; path = Dodo/Buttons/DodoButtonOnTap.swift; sourceTree = "<group>"; };
+		4355461DF8206EF3A28C626C32C5805D /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		451072FFA04458348718F64083EA5DA3 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		46D3F2070BE07BB7FCB71D284DDF94AD /* DodoAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoAnimations.swift; path = Dodo/Animators/DodoAnimations.swift; sourceTree = "<group>"; };
+		473A20DAB9E10F264674B85432ABD835 /* Pods-Storek -frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Storek -frameworks.sh"; sourceTree = "<group>"; };
+		4AF8C66CA7203EF2FE76F0B43A025C93 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		4D5AB11C23854B57DDE6B2B237B9D9B7 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		4F078E74440A3B0ACDE4B73865E103FF /* Icons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = Dodo/Icons/Icons.xcassets; sourceTree = "<group>"; };
+		4FAB7A4F5D112019A13426A4B540E2F6 /* DodoKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoKeyboardListener.swift; path = Dodo/DodoKeyboardListener.swift; sourceTree = "<group>"; };
+		504E0ABC5DBF66993425E1E452337BC9 /* SpringAnimationCALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimationCALayer.swift; path = Dodo/Utils/SpringAnimationCALayer.swift; sourceTree = "<group>"; };
+		5415D6E10A06F6A32EB2C3285D9FE608 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		586EBB80DA08942AAACB3D6049F45496 /* DodoButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoButtonView.swift; path = Dodo/Buttons/DodoButtonView.swift; sourceTree = "<group>"; };
+		5C6ECB73967F4E2F9D0F6F64A9F22507 /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		628D1B7A9C7F2539B368730A50012BE2 /* Dodo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dodo-Info.plist"; sourceTree = "<group>"; };
+		64E8FF62A750534E7C2524DF19B99051 /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		6862D2D2AFB4D6E798C8BBC44BD32461 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		6C9A8FC903F10FBE227D930F427922F5 /* Pods-Storek -dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Storek -dummy.m"; sourceTree = "<group>"; };
+		744A34E902985BA18355D27BD0F15BCA /* Dodo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dodo-prefix.pch"; sourceTree = "<group>"; };
+		75437AD219E8C1CA129AFD0C5F226E60 /* Pods-Storek -umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Storek -umbrella.h"; sourceTree = "<group>"; };
+		761B861546776912D92C03A0B9DDF7E3 /* DodoStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoStyle.swift; path = Dodo/Style/DodoStyle.swift; sourceTree = "<group>"; };
+		7C0522A46994161F53BB11C2CB88BF6A /* Pods-Storek -acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Storek -acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EF0426395F56AF7DD68F43DF5AE689D /* Dodo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dodo.swift; path = Dodo/Dodo.swift; sourceTree = "<group>"; };
+		806EFABEFE785C1A370EF81940448DB3 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		80BA924946E057BA86BA1476E2156617 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
+		82DBB509917DBFE04B55BD62E437C7D9 /* DodoIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoIcons.swift; path = Dodo/Icons/DodoIcons.swift; sourceTree = "<group>"; };
+		8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		875711137816D0B5E3A1FA4BC97ACDEC /* Pods-Storek -Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Storek -Info.plist"; sourceTree = "<group>"; };
+		887348F3624C31E97DEF22F5F3ABE82E /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
+		899CAA753D4B6FFECD2B0104CC364B02 /* Pods-Storek .modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Storek .modulemap"; sourceTree = "<group>"; };
+		8D9B570AABD1DABEA7DD3906DB8CE2DF /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		98056BCA94565565044F0E06AF754038 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		9968CBA31D4A6F355BCC1A87418E88EF /* DodoBarOnTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoBarOnTap.swift; path = Dodo/DodoBarOnTap.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C3F828C6A6574DDAD855CEB76ED3D3 /* Dodo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dodo-umbrella.h"; sourceTree = "<group>"; };
+		A7AD758162B95635189056BF26028BDB /* Dodo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dodo.modulemap; sourceTree = "<group>"; };
+		AA0136912B89FA1CF0E96BC78FBC749C /* DodoTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoTouchTarget.swift; path = Dodo/Helpers/DodoTouchTarget.swift; sourceTree = "<group>"; };
+		ABA04865C5A384DFBE88DCD3936A690F /* DodoLabelStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoLabelStyle.swift; path = Dodo/Style/DodoLabelStyle.swift; sourceTree = "<group>"; };
+		AEA9023040FDA1FD0A1D69146EE428AD /* DodoAnimationsShow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoAnimationsShow.swift; path = Dodo/Animators/DodoAnimationsShow.swift; sourceTree = "<group>"; };
+		B06A1CF6A9BC395F83BFC8A507BAEA04 /* DodoMockResults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoMockResults.swift; path = Dodo/Mock/DodoMockResults.swift; sourceTree = "<group>"; };
+		B0B093C3B21B73F1066DC73E8B5B696C /* TegAutolayoutConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegAutolayoutConstraints.swift; path = Dodo/Utils/TegAutolayoutConstraints.swift; sourceTree = "<group>"; };
+		B2AFD34524CF0D7A31417CA7F9C4C6EB /* DodoButtonViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoButtonViewDelegate.swift; path = Dodo/Buttons/DodoButtonViewDelegate.swift; sourceTree = "<group>"; };
+		B61A4192282F25C2166EF80C11915802 /* DodoAnimationsHide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoAnimationsHide.swift; path = Dodo/Animators/DodoAnimationsHide.swift; sourceTree = "<group>"; };
+		B808A33E9FDAC8059505A9F28B644FE5 /* Dodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F789B81D3D8D3A7A28068EFE2A5EBA /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		B995C12DE61E49A19990C2BEE019FE4D /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		BF7C036F97E452B14B59CA3C16D0C7E6 /* DodoBarStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoBarStyle.swift; path = Dodo/Style/DodoBarStyle.swift; sourceTree = "<group>"; };
+		C1EFF1220224624A97C77ECED0F78B52 /* Dodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dodo.release.xcconfig; sourceTree = "<group>"; };
+		C8BCF9B97341FC311E3A9A7DABE03CA2 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		C9655A4FEAE8E08236EEA4326F94A359 /* OnTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnTap.swift; path = Dodo/Utils/OnTap.swift; sourceTree = "<group>"; };
+		CAE4655C46F9ADB953386923523EB577 /* Dodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dodo.debug.xcconfig; sourceTree = "<group>"; };
+		CF4913EC81833B126BB4D287B08EFEB6 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		D0855FCEE5ED5CB2CE3D997F78C82AD1 /* DodoMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoMock.swift; path = Dodo/Mock/DodoMock.swift; sourceTree = "<group>"; };
+		D0B5145C94B5DD9E022213EE2636B48B /* Dodo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dodo-dummy.m"; sourceTree = "<group>"; };
+		D617D8CB01D64D38723E52354EAFE42F /* MoaTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaTimer.swift; path = Dodo/Utils/MoaTimer.swift; sourceTree = "<group>"; };
+		D62325D951CC3A00335C8BE996D3A71E /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		DB78CD12167A1DF0605C5C717EB7F780 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		DBC7D979772EF6C237858C4D3D19B5D9 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		DFB2184680B6540569B317E70FA8777D /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		E1670819AC7CBA7B103A46624FBAC7B6 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		E2AF67D6D3E74CEF7A8C5DDDBA917E45 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		E61EC45F88046A896FB0A2DF9B447531 /* DodoButtonDefaultStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoButtonDefaultStyles.swift; path = Dodo/Style/DodoButtonDefaultStyles.swift; sourceTree = "<group>"; };
+		E96367AF84CFD9B8DF4C6AA0B52A5C2C /* Pods-Storek -acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Storek -acknowledgements.plist"; sourceTree = "<group>"; };
+		EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8E0A5E7B01305281F520D0BF41B666A /* DodoMockMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DodoMockMessage.swift; path = Dodo/Mock/DodoMockMessage.swift; sourceTree = "<group>"; };
+		FF88E052FEA8567D39D77AF479CC3C68 /* UIView+SwiftAlertBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SwiftAlertBar.swift"; path = "Dodo/UIView+SwiftAlertBar.swift"; sourceTree = "<group>"; };
+		FFD363148F7631B108E7FA061745B8D8 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E8A791B86F7658CE0079948A7A46E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8A8B8DDAD2E3BE1F4E96079D9C46D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */,
+				210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */,
+				93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5DDEC3D7F3F90E9E970A315668DDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BE530311D7C0E8DB0CFE3F6B4A0D0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F621761C10451F73C1586FED94CCAC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC53789A4526C82AEB879B756FF3F25 /* Pods-Storek  */ = {
+			isa = PBXGroup;
+			children = (
+				899CAA753D4B6FFECD2B0104CC364B02 /* Pods-Storek .modulemap */,
+				7C0522A46994161F53BB11C2CB88BF6A /* Pods-Storek -acknowledgements.markdown */,
+				E96367AF84CFD9B8DF4C6AA0B52A5C2C /* Pods-Storek -acknowledgements.plist */,
+				6C9A8FC903F10FBE227D930F427922F5 /* Pods-Storek -dummy.m */,
+				473A20DAB9E10F264674B85432ABD835 /* Pods-Storek -frameworks.sh */,
+				875711137816D0B5E3A1FA4BC97ACDEC /* Pods-Storek -Info.plist */,
+				75437AD219E8C1CA129AFD0C5F226E60 /* Pods-Storek -umbrella.h */,
+				09038EC544AD7E4E427DB416A8A9D282 /* Pods-Storek .debug.xcconfig */,
+				162F741B9156AC97E6C29E82CE81B14E /* Pods-Storek .release.xcconfig */,
+			);
+			name = "Pods-Storek ";
+			path = "Target Support Files/Pods-Storek ";
+			sourceTree = "<group>";
+		};
+		0E4AA586B3353FDFC26C6ABA445DB9F3 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				28F3DD5568B504C2EA8B8ABEE9E1DDCA /* Reachability.swift */,
+				D51A72EFEEF1E88D419092922D6355A7 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		25F621761C10451F73C1586FED94CCAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */,
+				EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */,
+				8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56A4A28EA41DA90C8BC18CB8838996E8 /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				1CEBFFFFEB3863B10053B8A76E72ECA8 /* CosmosAccessibility.swift */,
+				4355461DF8206EF3A28C626C32C5805D /* CosmosDefaultSettings.swift */,
+				E2AF67D6D3E74CEF7A8C5DDDBA917E45 /* CosmosLayerHelper.swift */,
+				98056BCA94565565044F0E06AF754038 /* CosmosLayers.swift */,
+				4D5AB11C23854B57DDE6B2B237B9D9B7 /* CosmosLocalizedRating.swift */,
+				B8F789B81D3D8D3A7A28068EFE2A5EBA /* CosmosRating.swift */,
+				64E8FF62A750534E7C2524DF19B99051 /* CosmosSettings.swift */,
+				8D9B570AABD1DABEA7DD3906DB8CE2DF /* CosmosSize.swift */,
+				806EFABEFE785C1A370EF81940448DB3 /* CosmosText.swift */,
+				2EF96F1D47C374CA889643F39E2BA56A /* CosmosTouch.swift */,
+				01A41E3230D94BC566565BD11EF31803 /* CosmosTouchTarget.swift */,
+				FFD363148F7631B108E7FA061745B8D8 /* CosmosView.swift */,
+				6862D2D2AFB4D6E798C8BBC44BD32461 /* RightToLeft.swift */,
+				E1670819AC7CBA7B103A46624FBAC7B6 /* StarFillMode.swift */,
+				451072FFA04458348718F64083EA5DA3 /* StarLayer.swift */,
+				9FC90389A483528A4132BF9616A60A5D /* Support Files */,
+			);
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		5E6CA5422D810F606D75D5FD37EA2F36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD758162B95635189056BF26028BDB /* Dodo.modulemap */,
+				D0B5145C94B5DD9E022213EE2636B48B /* Dodo-dummy.m */,
+				628D1B7A9C7F2539B368730A50012BE2 /* Dodo-Info.plist */,
+				744A34E902985BA18355D27BD0F15BCA /* Dodo-prefix.pch */,
+				A1C3F828C6A6574DDAD855CEB76ED3D3 /* Dodo-umbrella.h */,
+				CAE4655C46F9ADB953386923523EB577 /* Dodo.debug.xcconfig */,
+				C1EFF1220224624A97C77ECED0F78B52 /* Dodo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Dodo";
+			sourceTree = "<group>";
+		};
+		82A83F27EDC809C1A7747A10D84576A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */,
+				B808A33E9FDAC8059505A9F28B644FE5 /* Dodo.framework */,
+				05392CAE12CEF92DA2AD2D909891C575 /* Pods_Storek_.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC90389A483528A4132BF9616A60A5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8C66CA7203EF2FE76F0B43A025C93 /* Cosmos.modulemap */,
+				11695E2915D153E70EDC1342E46B8973 /* Cosmos-dummy.m */,
+				DFB2184680B6540569B317E70FA8777D /* Cosmos-Info.plist */,
+				5415D6E10A06F6A32EB2C3285D9FE608 /* Cosmos-prefix.pch */,
+				D62325D951CC3A00335C8BE996D3A71E /* Cosmos-umbrella.h */,
+				80BA924946E057BA86BA1476E2156617 /* Cosmos.debug.xcconfig */,
+				887348F3624C31E97DEF22F5F3ABE82E /* Cosmos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		B22AFBD3A629CE4A2383E1DF5CF5DE3F /* Dodo */ = {
+			isa = PBXGroup;
+			children = (
+				7EF0426395F56AF7DD68F43DF5AE689D /* Dodo.swift */,
+				0A6300C5C1AFAD64D3613076447F863A /* DodoAnimation.swift */,
+				46D3F2070BE07BB7FCB71D284DDF94AD /* DodoAnimations.swift */,
+				B61A4192282F25C2166EF80C11915802 /* DodoAnimationsHide.swift */,
+				AEA9023040FDA1FD0A1D69146EE428AD /* DodoAnimationsShow.swift */,
+				071B48052A67505C5C3D5351B71FF6F5 /* DodoBarDefaultStyles.swift */,
+				9968CBA31D4A6F355BCC1A87418E88EF /* DodoBarOnTap.swift */,
+				BF7C036F97E452B14B59CA3C16D0C7E6 /* DodoBarStyle.swift */,
+				E61EC45F88046A896FB0A2DF9B447531 /* DodoButtonDefaultStyles.swift */,
+				3231C733A5662FDB14610FE6DB62185C /* DodoButtonOnTap.swift */,
+				31AD11F4D86E30D8E5D0896B8A138DCB /* DodoButtonStyle.swift */,
+				586EBB80DA08942AAACB3D6049F45496 /* DodoButtonView.swift */,
+				B2AFD34524CF0D7A31417CA7F9C4C6EB /* DodoButtonViewDelegate.swift */,
+				158F48EE5EA730A80950DB68E29073FE /* DodoColor.swift */,
+				82DBB509917DBFE04B55BD62E437C7D9 /* DodoIcons.swift */,
+				040BFD813CA1D498DCD5A158B2C2B985 /* DodoInterface.swift */,
+				4FAB7A4F5D112019A13426A4B540E2F6 /* DodoKeyboardListener.swift */,
+				0707C42CFF363C6605DEA0510D45D33C /* DodoLabelDefaultStyles.swift */,
+				ABA04865C5A384DFBE88DCD3936A690F /* DodoLabelStyle.swift */,
+				D0855FCEE5ED5CB2CE3D997F78C82AD1 /* DodoMock.swift */,
+				F8E0A5E7B01305281F520D0BF41B666A /* DodoMockMessage.swift */,
+				B06A1CF6A9BC395F83BFC8A507BAEA04 /* DodoMockResults.swift */,
+				155BA4AAF5CE87D8E201E73DAA2F6ABD /* DodoPresets.swift */,
+				761B861546776912D92C03A0B9DDF7E3 /* DodoStyle.swift */,
+				00760C8AE9C841482EA704D73F09D790 /* DodoToolbar.swift */,
+				AA0136912B89FA1CF0E96BC78FBC749C /* DodoTouchTarget.swift */,
+				D617D8CB01D64D38723E52354EAFE42F /* MoaTimer.swift */,
+				C9655A4FEAE8E08236EEA4326F94A359 /* OnTap.swift */,
+				504E0ABC5DBF66993425E1E452337BC9 /* SpringAnimationCALayer.swift */,
+				B0B093C3B21B73F1066DC73E8B5B696C /* TegAutolayoutConstraints.swift */,
+				FF88E052FEA8567D39D77AF479CC3C68 /* UIView+SwiftAlertBar.swift */,
+				148FAFC4C2B996A75AE97265FCCFBE4B /* UnderKeyboardDistrib.swift */,
+				FB92B2BC914619430C8070C998BD5916 /* Resources */,
+				5E6CA5422D810F606D75D5FD37EA2F36 /* Support Files */,
+			);
+			path = Dodo;
+			sourceTree = "<group>";
+		};
+		C0373324266BDA7CC555F25425761B30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56A4A28EA41DA90C8BC18CB8838996E8 /* Cosmos */,
+				B22AFBD3A629CE4A2383E1DF5CF5DE3F /* Dodo */,
+				0E4AA586B3353FDFC26C6ABA445DB9F3 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				C0373324266BDA7CC555F25425761B30 /* Pods */,
+				82A83F27EDC809C1A7747A10D84576A7 /* Products */,
+				D54B699C2E09C61800C598593493D02E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D51A72EFEEF1E88D419092922D6355A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB78CD12167A1DF0605C5C717EB7F780 /* ReachabilitySwift.modulemap */,
+				DBC7D979772EF6C237858C4D3D19B5D9 /* ReachabilitySwift-dummy.m */,
+				C8BCF9B97341FC311E3A9A7DABE03CA2 /* ReachabilitySwift-Info.plist */,
+				03837EDC3C7C448D4965706CC226F4B7 /* ReachabilitySwift-prefix.pch */,
+				B995C12DE61E49A19990C2BEE019FE4D /* ReachabilitySwift-umbrella.h */,
+				5C6ECB73967F4E2F9D0F6F64A9F22507 /* ReachabilitySwift.debug.xcconfig */,
+				CF4913EC81833B126BB4D287B08EFEB6 /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		D54B699C2E09C61800C598593493D02E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC53789A4526C82AEB879B756FF3F25 /* Pods-Storek  */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB92B2BC914619430C8070C998BD5916 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F078E74440A3B0ACDE4B73865E103FF /* Icons.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09A3241073D211B52552CE8AF4309C52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006C7650BA8A7792A469296D25C34FEA /* Pods-Storek -umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40097E5779029102CCD9C3E4EE752DDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABEF6C8F6F588DA112A48B39B47C86E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250C29CBC494F5E897C14712A798D296 /* Dodo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				40097E5779029102CCD9C3E4EE752DDF /* Headers */,
+				B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */,
+				6DEC9D66D25D7967B167DEA713C2359C /* Frameworks */,
+				C77B64B25EBB18C8D211C061D92B0B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */,
+				000885395D0D686A060DD76E35D874C2 /* Sources */,
+				1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */,
+				332B7A37F1A79B4B578E4145341A0E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = Reachability;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DE687E1509186749C85E1808D527FDE /* Dodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DA89CBB5E2646689498C1A9CC1343DC /* Build configuration list for PBXNativeTarget "Dodo" */;
+			buildPhases = (
+				4ABEF6C8F6F588DA112A48B39B47C86E /* Headers */,
+				A5AA541A4932FA8617A3F64897837BAA /* Sources */,
+				EC5DDEC3D7F3F90E9E970A315668DDAB /* Frameworks */,
+				D0E7E08DAC4D8D916450D338D6DB1B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dodo;
+			productName = Dodo;
+			productReference = B808A33E9FDAC8059505A9F28B644FE5 /* Dodo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F998B47CC1E5DF953EC6075A727E0EB5 /* Pods-Storek  */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FBECCCE0CCE19B5E5C2C42EF2355BA /* Build configuration list for PBXNativeTarget "Pods-Storek " */;
+			buildPhases = (
+				09A3241073D211B52552CE8AF4309C52 /* Headers */,
+				906034AF8B92C947747357061B32BD52 /* Sources */,
+				09E8A791B86F7658CE0079948A7A46E0 /* Frameworks */,
+				0AEF3229BEEA58FA14D705F61A2295DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2CFD5284F77E6FAA6287A4063195540 /* PBXTargetDependency */,
+				778F49D56B425DA5C795D1AD11AE62B8 /* PBXTargetDependency */,
+				1A1A7EC481CAC833893116BA7E2282C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Storek ";
+			productName = Pods_Storek_;
+			productReference = 05392CAE12CEF92DA2AD2D909891C575 /* Pods_Storek_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 82A83F27EDC809C1A7747A10D84576A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
+				3DE687E1509186749C85E1808D527FDE /* Dodo */,
+				F998B47CC1E5DF953EC6075A727E0EB5 /* Pods-Storek  */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AEF3229BEEA58FA14D705F61A2295DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332B7A37F1A79B4B578E4145341A0E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77B64B25EBB18C8D211C061D92B0B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E7E08DAC4D8D916450D338D6DB1B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95879E6ADD217CCD6D2F9BC6C813E72D /* Icons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000885395D0D686A060DD76E35D874C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */,
+				960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906034AF8B92C947747357061B32BD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AB59301029BF12BF903DA4E399272F /* Pods-Storek -dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AA541A4932FA8617A3F64897837BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA9F78BDD8D5F7240C94A04056E8C9D /* Dodo.swift in Sources */,
+				62B5E240A4DCD126F7D36E87715EE948 /* Dodo-dummy.m in Sources */,
+				F6A2888F195755F83F38865BBDAF3A8E /* DodoAnimation.swift in Sources */,
+				043FB398B2F1B3C33CFC74E45869A267 /* DodoAnimations.swift in Sources */,
+				C71430E3DD5225229CB2E0D208412D0F /* DodoAnimationsHide.swift in Sources */,
+				BCDCA254978B9031179DEAFE961BC329 /* DodoAnimationsShow.swift in Sources */,
+				ECA18A0B2E764E10AA23A5B31ED499BF /* DodoBarDefaultStyles.swift in Sources */,
+				D9B99F592F5A734B5EDFE7698F50B008 /* DodoBarOnTap.swift in Sources */,
+				161CE4CB7E8DF74E79413F9E49EC0A33 /* DodoBarStyle.swift in Sources */,
+				8A9766B5F31C4971BB9269C874B4752D /* DodoButtonDefaultStyles.swift in Sources */,
+				E28055B3F953C19CCF4606159429A129 /* DodoButtonOnTap.swift in Sources */,
+				49CC87950DF0766DBB0B064AF22BB146 /* DodoButtonStyle.swift in Sources */,
+				F61117ECDA63FA0265ED3BA3F67592A4 /* DodoButtonView.swift in Sources */,
+				120C1B1A56ABA6C9882E49D354E13B9E /* DodoButtonViewDelegate.swift in Sources */,
+				1FDAFBD8CC13389CC2300D4905903DC4 /* DodoColor.swift in Sources */,
+				686856F88D8AA13189A727474B0D731F /* DodoIcons.swift in Sources */,
+				9B45F19C084FE1C98EACA45DDE83E2A2 /* DodoInterface.swift in Sources */,
+				59689D49E037C498592F3D5B2F21EA93 /* DodoKeyboardListener.swift in Sources */,
+				E2D6EEAF199298D0E2EADC01FA5A6DE1 /* DodoLabelDefaultStyles.swift in Sources */,
+				6CC048B5E9BD9FF24136D66774DEF087 /* DodoLabelStyle.swift in Sources */,
+				628F1C0ACDE93255807E786C2619290F /* DodoMock.swift in Sources */,
+				11E5650E7F5AC2A7167A44D68FC37E86 /* DodoMockMessage.swift in Sources */,
+				8518DA7C37C47CCE4F55047F7FD1DF7E /* DodoMockResults.swift in Sources */,
+				CBBF964941535265CA38D9897C705D38 /* DodoPresets.swift in Sources */,
+				78F45F63B17B07C04BD516A40D1D135D /* DodoStyle.swift in Sources */,
+				1EEA1978C2A4664F7A309E54F988AD93 /* DodoToolbar.swift in Sources */,
+				43131319507ECB00826294018D4E0409 /* DodoTouchTarget.swift in Sources */,
+				8A7BEC80C83D5F9E3906EA6BFFD468F5 /* MoaTimer.swift in Sources */,
+				C4201EEBBE6B79244B5D87506A59225B /* OnTap.swift in Sources */,
+				715229923AE7F21D2AC0B9D5CE28AA4B /* SpringAnimationCALayer.swift in Sources */,
+				8DB63B791C2D03F84269CF42837EABC0 /* TegAutolayoutConstraints.swift in Sources */,
+				A6F584D63C437820BF240280E9E7864C /* UIView+SwiftAlertBar.swift in Sources */,
+				DE124A4B23E3BBA3A477C84749539617 /* UnderKeyboardDistrib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1B8AB666CBBC24142B5B2D2C578F7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */,
+				772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */,
+				61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */,
+				99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */,
+				ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */,
+				CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */,
+				3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */,
+				4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */,
+				8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */,
+				1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */,
+				7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */,
+				449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */,
+				EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */,
+				9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */,
+				5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */,
+				7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A1A7EC481CAC833893116BA7E2282C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 9C077274DE72DE7E1D70623DE9D9E96E /* PBXContainerItemProxy */;
+		};
+		778F49D56B425DA5C795D1AD11AE62B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dodo;
+			target = 3DE687E1509186749C85E1808D527FDE /* Dodo */;
+			targetProxy = 19AC467D29F5F47E1DCCC889DE25202A /* PBXContainerItemProxy */;
+		};
+		B2CFD5284F77E6FAA6287A4063195540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
+			targetProxy = 7088A4AE62794E4E84F22E7A7C0696F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C1B96D7A9688F54BA2880EE69E6BB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09038EC544AD7E4E427DB416A8A9D282 /* Pods-Storek .debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Storek /Pods-Storek -Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Storek /Pods-Storek .modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2085D822C52E6B13B9F62C2370DFC3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1EFF1220224624A97C77ECED0F78B52 /* Dodo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dodo/Dodo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dodo/Dodo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dodo/Dodo.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Dodo;
+				PRODUCT_NAME = Dodo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45E8171F3B13294C1434863A6CD6D4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6ECB73967F4E2F9D0F6F64A9F22507 /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D652417A615351C934DD0C54E34BC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE4655C46F9ADB953386923523EB577 /* Dodo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Dodo/Dodo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dodo/Dodo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dodo/Dodo.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Dodo;
+				PRODUCT_NAME = Dodo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BA924946E057BA86BA1476E2156617 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9988D7C25D91BB9EB4230156FF83225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162F741B9156AC97E6C29E82CE81B14E /* Pods-Storek .release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Storek /Pods-Storek -Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Storek /Pods-Storek .modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887348F3624C31E97DEF22F5F3ABE82E /* Cosmos.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EACDDDC9C0F413718312E0A600371E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4913EC81833B126BB4D287B08EFEB6 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E8171F3B13294C1434863A6CD6D4D2 /* Debug */,
+				EACDDDC9C0F413718312E0A600371E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DA89CBB5E2646689498C1A9CC1343DC /* Build configuration list for PBXNativeTarget "Dodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D652417A615351C934DD0C54E34BC59 /* Debug */,
+				2085D822C52E6B13B9F62C2370DFC3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FBECCCE0CCE19B5E5C2C42EF2355BA /* Build configuration list for PBXNativeTarget "Pods-Storek " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B96D7A9688F54BA2880EE69E6BB7B /* Debug */,
+				9988D7C25D91BB9EB4230156FF83225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5531D3CEF3EBE4420E9BFCEFA9DD7F6 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */,
+				C78C1BA85703BCE69743B7C85B847990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
