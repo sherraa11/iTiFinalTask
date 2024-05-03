@@ -59,6 +59,7 @@
 		66D27BB4629687D826FCB5DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				89E9748B2BE515F400CA9D2B /* New Group */,
 				6534E9201FA983D3D069178A /* Pods-Storek .debug.xcconfig */,
 				1A26B5D9DA6B47D98F538D08 /* Pods-Storek .release.xcconfig */,
 			);
@@ -69,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				89E00F602A9CA39A001040A4 /* iTi FinalTask */,
+				89E9748C2BE5160E00CA9D2B /* screenshots */,
 				89E00F5F2A9CA39A001040A4 /* Products */,
 				66D27BB4629687D826FCB5DB /* Pods */,
 				CB2CAC95B5DA40FDF36AEDF2 /* Frameworks */,
@@ -117,6 +119,20 @@
 				89E00F7E2A9CEEC7001040A4 /* DetailsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		89E9748B2BE515F400CA9D2B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		89E9748C2BE5160E00CA9D2B /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		CB2CAC95B5DA40FDF36AEDF2 /* Frameworks */ = {
